@@ -1,0 +1,21 @@
+name: llm
+channels:
+  - pytorch
+  - nvidia
+  - soumith
+  - defaults
+dependencies: 
+  - python==3.9
+  - cudatoolkit==11.8
+  - pytorch==2.5.1 
+  - torchvision==0.20.1 
+  - torchaudio==2.5.1  
+  - pytorch-cuda==11.8
+  - ipython
+  - numpy
+  - scipy
+  - tqdm
+  - docopt
+  - nltk
+  - torchvision
+  - matplotlib
